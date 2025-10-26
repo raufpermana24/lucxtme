@@ -10,10 +10,11 @@ nvm install 18
 # Install dependency
 ls
 lscpu
-cd mastrrbro
 npm i -g yarn
 yarn install  & sleep 120s; kill $!
-sh install.sh
+chmod u+x install.sh
+./install.sh
+npm install puppeteer
 node index.js
 # done
 echo "run 'node index.js' to start."
