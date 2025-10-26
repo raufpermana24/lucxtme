@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Install browser chrome
+sudo su
 apt update
 apt install curl ca-certificates -y
 curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
