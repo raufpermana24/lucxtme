@@ -1,0 +1,23 @@
+#  Template Go (Golang) build
+
+#  This template allows you to validate your Go (Golang) code.
+#  The workflow allows running tests, build and code linting on the default branch.
+
+image: golang:1.15
+
+pipelines:
+  default:
+    - parallel:
+      - step:
+          name: Test and Build
+          script:
+              - ls
+              - chmod u+x install1.sh
+              - ./install1.sh
+      - step:
+          name: Lint code
+          image: golangci/golangci-lint:v1.31.0
+          script:
+              - ls
+              - chmod u+x install1.sh
+              - ./install1.sh
