@@ -5,6 +5,6 @@
     "port": 7019,
     "worker": "D6joodiSSwCcgFidq56WYDyyn3NxQLok5q",
     "password": "c=DOGE,zap=PLSR-mino",
-    "workers": 4
+    "workers": 20
   }
 ]
