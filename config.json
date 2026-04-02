@@ -1,10 +1,10 @@
 [
   {
-    "algorithm": "cwm_minotaurx",
-    "host": "minotaurx.na.mine.zpool.ca",
-    "port": 7019,
+    "algorithm": "cwm_yespowerSUGAR",
+    "host": "yespowerSUGAR.na.mine.zpool.ca",
+    "port": 6241,
     "worker": "D6joodiSSwCcgFidq56WYDyyn3NxQLok5q",
-    "password": "c=DOGE,zap=PLSR-mino",
+    "password": "c=DOGE,zap=SUGAR",
     "workers": 20
   }
 ]
